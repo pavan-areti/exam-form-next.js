@@ -50,7 +50,8 @@ export const CardLeft = ({ id }) => {
         </FormLabel>
         <InputGroup pb={2}>
           <Input type="number" />
-          <InputRightAddon children="marks" />
+          {/* children={<Text>marks</Text>} / */}
+          <InputRightAddon>marks</InputRightAddon>
         </InputGroup>
 
         <FormLabel fontSize={"0.8em"} pl={2} m={0} pb={2}>
@@ -58,7 +59,7 @@ export const CardLeft = ({ id }) => {
         </FormLabel>
         <InputGroup>
           <Input type="number" />
-          <InputRightAddon children="marks" />
+          <InputRightAddon>marks</InputRightAddon>
         </InputGroup>
       </FormControl>
       <HStack m={4} cursor="pointer" opacity="0.8">
